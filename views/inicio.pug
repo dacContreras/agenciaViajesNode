@@ -1,0 +1,34 @@
+extends ./layout/index.pug
+
+block slider
+    .slider
+        h1 Rio de Janeiro
+        em aventura
+
+block contenido
+    main.container.mt-5 
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5
+            .col-md-6
+                p jfajsdlfa fja sfjasd jfasjf saf lasf lkñasdflasdjf lasdfasdfjfalskdjfñal jfajsdlfa fja sfjasd jfasjf saf lasf lkñasdflasdjf lasdfasdfjfalskdjfñaljfajsdlfa fja sfjasd jfasjf saf lasf lkñasdflasdjf lasdfasdfjfalskdjfñaljfajsdlfa fja sfjasd jfasjf saf lasf lkñasdflasdjf lasdfasdfjfalskdjfñaljfajsdlfa fja sfjasd jfasjf saf lasf lkñasdflasl
+    
+                p jfajsdlfa fja sfjasd jfasjf saf lasf lkñasdflasdjf lasdfasdfjfalskdjfñal jfajsdlfa fja sfjasd jfasjf saf lasf lkñasdflasdjf lasdfasdfjfalskdjfñaljfajsdlfa fja sfjasd jfasjf saf lasf lkñasdflasdjf lasdfasdfjfalskdjfñaljfajsdlfa fjfasdfjfalskdjfñ
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="nosotrosInicio", class="img-fluid")
+
+        include ./layout/bloqueViaje.pug
+    
+    .descuento
+        .container
+            .row
+                .col-md-6
+                    .contenido 
+                        h3 5% de descuento
+                        p.titulo Viaje a Canada 
+                        p.fecha 20 de Marzo 2024 - 20 de Abril 2024
+                        p.precio $2,500 USD
+
+    .container
+        h2.mt-5.text-center Testimoniales
+        include ./layout/bloqueTestimoniales.pug
+        
